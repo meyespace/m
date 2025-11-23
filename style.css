@@ -1,0 +1,57 @@
+* {
+            font-family: monospace;
+            transition:.05s linear;
+        }
+
+        body {
+            color: white;
+            background-color: black;
+            font-family: monospace;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            margin-top:60px;
+            align-items: center;
+            place-content: center;
+            margin-inline: auto;
+            width: 80%;
+        }
+        #container a {
+            color:white;
+            font-size:large;
+        }
+        #container a:hover, #imp:hover{
+            color:red;
+        }
+        #container div {
+            margin: 10px;
+        }
+
+
+        #content {
+            text-align: center;
+            font-size: large;
+        }
+
+        #content button {
+            background-color: red;
+            font-size: xx-large;
+        }
+
+        #content button:hover {
+            transform:scale(1.2)
+        }
+        #content button:active{
+            filter:brightness(0.3)
+        }
+        #imp{
+            font-weight:bolder
+        }
+        #backgroundVid{
+            max-width:100%;
+            max-height:100%;
+            position:absolute;
+            z-index:-999
+        }
