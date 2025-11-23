@@ -1,6 +1,7 @@
 * {
             font-family: monospace;
             transition:.05s linear;
+            cursor:url('img/eyecursor.png', auto);
         }
 
         body {
